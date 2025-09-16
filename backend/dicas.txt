@@ -1,0 +1,17 @@
+1° CRIAR O SERVIDOR
+npm init -y
+
+2°CRIAR O ARQUIVO SERVER
+touch server.js
+
+3°INSTALAR AS DEPENDÊNCIAS
+npm install express
+npm install cors
+npm install body-parser
+npm install uuid
+
+ou pode instalar tudo em uma linha
+
+npm i express cors body-parser uuid
+
+npm install nodemon -g
