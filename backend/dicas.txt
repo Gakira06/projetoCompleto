@@ -14,4 +14,4 @@ ou pode instalar tudo em uma linha
 
 npm i express cors body-parser uuid
 
-npm install nodemon -g
+npm install nodemon

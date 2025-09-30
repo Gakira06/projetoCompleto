@@ -1,0 +1,1 @@
+npm install axios em vez do metodo fetch

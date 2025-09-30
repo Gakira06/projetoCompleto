@@ -85,7 +85,7 @@ app.delete("/produto/:id", (req,res)=>{
     // OBTER O ID DO PRODUTO NA URL
     const produtoId = req.params.id;
     // ARMAZENA O TAMANHO DO INICIO DO ARRAY DE PRODUTOS
-    const inicioProduto = produtos.length();
+    const inicioProduto = produtos.length;
     // FILTRA O ARRAY E REMOVE O PRODUTO COM O ID ESCOLHIDO
     produtos= produtos.filter(item=>item.id !== produtoId)
     // VERIFICA SE O PRODUTO FOI REMOVIDO
